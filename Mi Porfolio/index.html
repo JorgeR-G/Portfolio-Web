@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorge Rodriguez Garcia</title>
+    <meta name=description content="Jorge Rodriguez Garcia - Fullstack Developer. Crea soluciones 
+    personalizadas y efectivas con interfaces modernas e intuitivas.">
+    <meta name="keywords"content="diseño web, desarrollo web, Fullstack Developer, 
+    diseño frontend, desarrollo backend, web development, creación de páginas web, soluciones web, interfaces intuitivas, portfolio web, 
+    desarrollador en Ronda (Málaga)">
+    <meta name="author" contnent="Jorge Rodriguez Garcia">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/normalize.css">
+    <link rel="stylesheet" href="src/css/style.css">      
+    <link rel="stylesheet" href="src/css/animation.css">    
+</head>
+    <body class="bg-zinc-900 font-poppins text-gray-100">
+            <audio preload="auto" id="miAudio" hidden>
+        <source src="mp3/intro.mp3" type="audio/mpeg">
+            Tu navegador no soporta la reproducción de audio.
+            </audio>  
+        <!--Presentación--> 
+        <div id="intro-content" class="hidden">  
+            <div id="intro-screen" class="intro-screen">
+                <div class="inicio-screen bg-zinc-950 animate-glowBlue"><!--NO MODIFICADO EN JAVASCRIPT-->
+                    <img src="src/img/yodibujo.webp" alt="Picture Profile" id="perf" class="screen-img"> <!--NO MODIFICADO el CSS-->
+                    <h1 class="pw-name font-pixel">Mi Portfolio Web</h1> <!--NO MODIFICADO el CSS-->
+                        <button id="start-btn" class="start-btn bg-zinc-950"> <!--NO MODIFICADO el CSS-->
+                            <img src="src/img/play.png" alt="play!"> <!--NO MODIFICADO el CSS-->
+                        </button>
+                </div>  
+                <p id="intro-text" class="intro-text"></p>   
+            </div>
+        </div>
+        
+        <!--Main Content-->
+        <div  id="main-content"  class="main-content">
+            <div id="header-wrapper" class="header-wrapper relative">
+                <div id="header-img" class="header-container bg-zinc-900 ">
+                    <img src="src/img/yodibujo.webp" alt="Picture Profile" id="perf" class="head-img header-anime-img">
+                </div>
+                <div class="social">
+                    <a href="https://github.com/JorgeR-G" target="_blank">
+                        <img src="src/img/iconos/github.webp" alt="GitHub" class="social-img">
+                    </a>
+                    <a href="https://www.linkedin.com/in/jorger-g/" target="_blank">
+                        <img src="src/img/iconos/in.webp" alt="LinkedIn" class="social-img">
+                    </a>
+                    <a href="https://linktr.ee/Jorge_RG" target="_blank">
+                        <img src="src/img/iconos/enlazar.webp" alt="Enlazar" class="social-img py-social">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <header class="header-name">
+            <h1 class="name font-pixel">Jorge Rodríguez García</h1>
+        </header>
+        <main class="main-content">
+            <p>IT Consultant & FullStack Developer</p>
+        </main>
+
+        <!--Section Sobre Mi-->
+        <section class="bg-zinc-950 py-1">
+            <div class="description">
+                <h2 class=" h2-sobreMi font-pixel">
+                    <span class="sobre-mi">Sobre mí</span>
+                </h2>
+                <p class="description-text font-mono">¡Hello 👋 World!,
+                    Estoy buscando trabajo como developer. Soy un desarrollador y diseñador web dinámico y autodidacta. Apasionado por
+                    todos los ciclos del proceso web. Disfruto colaborando en equipo. Siempre en busca de nuevos desafíos para seguir creciendo y aprendiendo.
+                    Soy una persona independiente y perseverante, siempre encuentro la manera de conseguir lo que me propongo.  
+                    Me encantaría formar parte de un equipo para aprender y crecer junto a otros profesionales.  
+                    Si algo no lo sé, lo aprendo, y me considero resolutivo en cualquier situación. Al final, la vida es una constante aventura...  
+                    ¡Gracias por leer chat@!
+                </p>
+            </div>
+        </section>
+
+        <!--Proyectos-->
+        <section id="projects" class="py-2">
+            <div class="projects-mx">
+                <h2 id="project-title" class="project-h2 font-pixel">Proyectos</h2>
+                <div class="projects-grid grid md:grid-cols-2 lg:grid-cols-3">
+                    <!-- Proyecto -->
+                    <div class="proyecto1 bg-zinc-950 animate-glowBlue">
+                        <img src="src/img/imagenes Proyectos/freelancer.webp" alt="Project 1" class="projects">
+                        <h3 class="title-proyectos font-pixel">Diseño y Desarrollo Freelancer</h3>
+                        <div class="aling-icons">
+                            <img src="src/img/iconos/html.webp" alt="html" class="icons">
+                            <img src="src/img/iconos/css.webp" alt="css" class="icons">
+                        </div>
+                        <p class="description-text-p font-mono">Una web de Diseño y Desarrollo Freelancer para contactar con él y ofrecer sus servicios a los usuarios.
+                        </p>
+                        <div class="btn-projects">
+                            <button type="button" class="btn bg-zinc-900 hover:bg-neutral">
+                                <a href="https://github.com/JorgeR-G/Freelancer-Jorge-Rodriguez" target="_blank" class="a-btn">Ver proyecto</a>
+                            </button>
+                            <button type="button" class="btn bg-zinc-900 hover:bg-neutral hover:border-ambar">
+                                <a href="https://freelancer-jorge-rodriguez.netlify.app/" target="_blank" class="a-btn">🌐</a>
+                            </button>
+                        </div>  
+                    </div>  
+                    <!-- Proyecto --> 
+                    <div class="proyecto1 bg-zinc-950 animate-glowBlue">
+                        <img src="src/img/imagenes Proyectos/FrontendStore.webp" alt="Project 1" class="projects">
+                        <h3 class="title-proyectos font-pixel">FrontEnd Store</h3>
+                        <div class="aling-icons">     
+                            <img src="src/img/iconos/html.webp" alt="html" class="icons">
+                            <img src="src/img/iconos/css.webp" alt="css" class="icons"> 
+                        </div>
+                        <p class="description-text-p font-mono">Una tienda llamada FrontEnd Store, donde se venden camisetas con lenguajes Front End.
+                        </p>
+                        <div class="btn-projects">
+                            <button type="button" class="btn bg-zinc-900 hover:bg-neutral">
+                                <a href="https://github.com/JorgeR-G/FrontEnd-Strore" target="_blank" class="a-btn">Ver proyecto</a>
+                            </button>
+                            <button type="button" class="btn bg-zinc-900 hover:bg-neutral hover:border-ambar">
+                                <a href="https://frontend-jorge-rodriguez.netlify.app/" target="_blank" class="a-btn">🌐</a>
+                            </button>
+                        </div>  
+                    </div>
+                    <!-- Proyecto --> 
+                    <div class="proyecto1 bg-zinc-950 animate-glowBlue">
+                        <img src="src/img/imagenes Proyectos/blogCafe.webp" alt="Project 1" class="projects">
+                        <h3 class="title-proyectos font-pixel">Blog de Café</h3>
+                        <div class="aling-icons">   
+                            <img src="src/img/iconos/html.webp" alt="html" class="icons">
+                            <img src="src/img/iconos/css.webp" alt="css" class="icons"> 
+                        </div>
+                        <p class="description-text-p font-mono">Blog de Café, donde habla de recetas, beneficios del café, cursos y talleres.
+                        </p>
+                        <div class="btn-projects">
+                            <button type="button" class="btn bg-zinc-900 hover:bg-neutral">
+                                <a href="https://github.com/JorgeR-G/BlogdeCafe" target="_blank" class="a-btn">Ver proyecto</a>
+                            </button>
+                            <button type="button" class="btn bg-zinc-900 hover:bg-neutral hover:border-ambar">
+                                <a href="https://blogdecafe-jorge-rodriguez.netlify.app/" target="_blank" class="a-btn">🌐</a>
+                            </button>
+                        </div>  
+                    </div>
+                    <!-- Proyecto --> 
+                    <div class="proyecto1 bg-zinc-950 animate-glowBlue">
+                        <img src="src/img/imagenes Proyectos/appsalon.webp" alt="Project 1" class="projects">
+                        <h3 class="title-proyectos font-pixel">App Salón</h3>
+                        <div class="aling-icons">
+                            <img src="src/img/iconos/html.webp" alt="html" class="icons">
+                            <img src="src/img/iconos/javascript.webp" alt="javascript" class="icons">
+                            <img src="src/img/iconos/php.webp" alt="php" class="icons"> 
+                            <img src="src/img/iconos/json.webp" alt="json" class="icons">
+                            <img src="src/img/iconos/sass.webp" alt="sass" class=icons"> 
+                            <img src="src/img/iconos/gulp.webp" alt="gulp" class="icons">
+                            <img src="src/img/iconos/npm.webp" alt="npm" class="icons">   
+                            <img src="src/img/iconos/sql.webp" alt="sql" class="icons"> 
+                            <img src="src/img/iconos/node-js.webp" alt="sql" class="icons"> 
+                        </div>
+                        <p class="description-text-p font-mono">Gestor de citas de Peluquería, a través de la creación de un usuario puedes reservar citas y utilizar todos sus servicios.
+                        </p>
+                        <div class="btn-projects">
+                            <button type="button" class="btn bg-zinc-900 hover:bg-neutral">
+                                <a href="https://github.com/JorgeR-G/AppSalon" target="_blank" class="a-btn">Ver proyecto</a>
+                            </button>
+                            <button type="button" class="btn bg-zinc-900 hover:bg-neutral hover:border-ambar">
+                                <a href="" target="_blank" class="a-btn">🌐</a>
+                            </button>
+                        </div>  
+                    </div>
+                    <!-- Proyecto --> 
+                    <div class="proyecto1 bg-zinc-950 animate-glowBlue">
+                        <img src="src/img/imagenes Proyectos/Portfolio.webp" alt="Project 1" class="projects">
+                        <h3 class="title-proyectos font-pixel">Mi Portfolio</h3>
+                        <div class="aling-icons">       
+                            <img src="src/img/iconos/html.webp" alt="html" class="icons">
+                            <img src="src/img/iconos/css.webp" alt="css" class="icons">    
+                            <img src="src/img/iconos/javascript.webp" alt="javascript" class="icons">
+                        </div>
+                        <p class="description-text-p font-mono">Mi Portfolio Web, para ver mis Stack, Proyectos o poder contactar.
+                        </p>
+                        <div class="btn-projects">
+                            <button type="button" class="btn bg-zinc-900 hover:bg-neutral">
+                                <a href="https://github.com/JorgeR-G/Portfolio-Web" target="_blank" class="a-btn">Ver proyecto</a>
+                            </button>
+                            <button type="button" class="btn bg-zinc-900 hover:bg-neutral hover:border-ambar">
+                                <a href="---" target="_blank" class="a-btn">🌐</a>
+                            </button>
+                        </div>  
+                    </div>
+                     <!-- Proyecto --> 
+                     <div class="proyecto1 bg-zinc-950 animate-glowBlue">
+                        <img src="src/img/imagenes Proyectos/Net.webp" alt="Project 1" class="projects">
+                        <h3 class="title-proyectos font-pixel">.Net Framework</h3>
+                        <div class="aling-icons">          
+                            <img src="src/img/iconos/net.webp" alt="net" class="icons">
+                        </div>
+                        <p class="description-text-p font-mono">Ejercicios variados de .Net Framework.
+                        </p>
+                        <div class="btn-projects">
+                            <button type="button" class="btn bg-zinc-900 hover:bg-neutral">
+                                <a href="https://github.com/JorgeR-G/Portfolio-Web" target="_blank" class="a-btn">Ver proyecto</a>
+                            </button>
+                            <button type="button" class="btn bg-zinc-900 hover:bg-neutral hover:border-ambar">
+                                <a href="https://github.com/JorgeR-G/Portfolio-Web" target="_blank" class="a-btn">🌐</a>
+                            </button>
+                        </div>  
+                    </div>
+                    <!-- Proyecto --> 
+                    <div class="proyecto1 bg-zinc-950 animate-glowBlue">
+                        <img src="src/img/imagenes Proyectos/Java.webp" alt="Project 1" class="projects">
+                        <h3 class="title-proyectos font-pixel">Java</h3>
+                        <div class="aling-icons"> 
+                            <img src="src/img/iconos/java.webp" alt="java" class="icons">
+                        </div>
+                        <p class="description-text-p font-mono">Ejercicios variados de Java, todos estos se visualizan por consola.
+                        </p>
+                        <div class="btn-projects">
+                            <button type="button" class="btn bg-zinc-900 hover:bg-neutral">
+                                <a href="https://github.com/JorgeR-G/Portfolio-Web" target="_blank" class="a-btn">Ver proyecto</a>
+                            </button>
+                            <button type="button" class="btn bg-zinc-900 hover:bg-neutral hover:border-ambar">
+                                <a href="src/img/imagenes Proyectos/Java.webp" target="_blank" class="a-btn">🌐</a>
+                            </button>
+                        </div>  
+                    </div>
+                    <!-- Proyecto --> 
+                    <div class="proyecto1 bg-zinc-950 animate-glowBlue">
+                        <img src="src/img/imagenes Proyectos/JavaScript.webp" alt="Project 1" class="projects">
+                        <h3 class="title-proyectos font-pixel">JavaScript</h3>
+                        <div class="aling-icons"> 
+                            <img src="src/img/iconos/javascript.webp" alt="javascript" class="icons">
+                            <img src="src/img/iconos/html.webp" alt="html" class="icons">
+                            <img src="src/img/iconos/css.webp" alt="css" class="icons">
+                        </div>
+                        <p class="description-text-p font-mono">Ejercicios variados de JavaScript, HTML, CSS.
+                        </p>
+                        <div class="btn-projects">
+                            <button type="button" class="btn bg-zinc-900 hover:bg-neutral">
+                                <a href="https://github.com/JorgeR-G/Portfolio-Web" target="_blank" class="a-btn">Ver proyecto</a>
+                            </button>
+                            <button type="button" class="btn bg-zinc-900 hover:bg-neutral hover:border-ambar">
+                                <a href="src/img/imagenes Proyectos/JavaScript.webp" target="_blank" class="a-btn">🌐</a>
+                            </button>
+                        </div>  
+                    </div>
+                </div>       
+            </div>           
+        </section>
+        <!--Section Stack-->
+        <section id="skill" class="bg-zinc-950 py-2">
+            <div class="stack">
+                <h2 class="h2-stack font-pixel">Stack</h2>
+                <div class="stack-flex">
+                    <div class="stack-icons">
+                        <img src="src/img/iconos/html.webp" alt="HTML" class="stack-img animate-tada">
+                        <span class="stack-span text-orange font-mono">HTML</span>
+                    </div>
+                    <div class="stack-icons">
+                        <img src="src/img/iconos/css.webp" alt="CSS" class="stack-img animate-fade-in">
+                        <span class="stack-span text-skyblue font-mono">CSS</span>
+                    </div>
+                    <div class="stack-icons">
+                        <img src="src/img/iconos/javascript.webp" alt="JavaScript" class="stack-img animate-spin">
+                        <span class="stack-span text-yellow font-mono">JavaScript</span>
+                    </div>
+                    <div class="stack-icons">
+                        <img src="src/img/iconos/php.webp" alt="PHP" class="stack-img animate-shake">
+                        <span class="stack-span text-grey font-mono">PHP</span>
+                    </div>
+                    <div class="stack-icons">
+                        <img src="src/img/iconos/sass.webp" alt="SASS" class="stack-img animate-spin">
+                        <span class="stack-span text-rose font-mono">SASS</span>
+                    </div>
+                    <div class="stack-icons">
+                        <img src="src/img/iconos/java.webp" alt="Java" class="stack-img animate-flipx">
+                        <span class="stack-span text-darkblue font-mono">Java</span>
+                    </div>
+                    <div class="stack-icons">
+                        <img src="src/img/iconos/sql.webp" alt="SQL" class="stack-img animate-ping">
+                        <span class="stack-span text-green font-mono">SQL</span>   
+                    </div>
+                    <div class="stack-icons">
+                        <img src="src/img/iconos/node-js.webp" alt="Node.js" class="stack-img animate-tada">
+                        <span class="stack-span text-shamrock-green font-mono">Node.js</span>
+                    </div>
+                    <div class="stack-icons">
+                        <img src="src/img/iconos/angular.webp" alt="Angular" class="stack-img animate-flipx">
+                        <span class="stack-span text-red font-mono">Angular</span>
+                    </div>
+                    <div class="stack-icons">
+                        <img src="src/img/iconos/net.webp" alt="NET" class="stack-img animate-flash">
+                        <span class="stack-span text-purple font-mono">.NET</span>
+                    </div>
+                    <div class="stack-icons">
+                        <img src="src/img/iconos/github.webp" alt="Git" class="stack-img animate-ping">
+                        <span class="stack-span text-blue font-mono">Git</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Panel de Acción-->
+        <div class="action-panel bg-zinc-900 text-center">
+            <h3 class="h3-panel font-pixel">¿Te gusta mi trabajo?</h3>
+            <p id="panel-subtitle" class="p-panel font-mono">¿Necesitas tu propia Web?</pn>
+            <p class="p-download">Descarga mi CV para más detalles o contáctame directamente.</p>
+                <a href="cv/Jorge-Rodriguez-Garcia.pdf" class="btn-download py-2 bg-violet">
+                    <span class="btn-text">Descargar CV</span>
+                        <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                            <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/>
+                        </svg> 
+                </a>
+        </div>
+        <!--Contactar conmigo-->
+        <section id="contact" class="bg-zinc-950 py-3">
+            <div class="contactar">
+                <h2 id="contact-title" class="h2-contacto font-pixel">Contacto</h2>
+                <!-- Contenedor carpeta -->
+                <div class="container bg-zinc-925">
+                    <div class="flex">
+                            <div id="loading-spinner" class="send hidden font-pixel">Enviando...</div>
+                        <!-- Pestañas - Tabs -->
+                        <div class="tabs">
+                            <button id="email-tab" class="tab-button bg-zinc-900 text-red py-2">
+                                <p class="flex"> <span class="f-tab">Email &nbsp;</span>
+                                    <svg class="svg-tab" fill="currentColor" height="24px" width="24px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 237.832 237.832" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M228.977,33.916H8.854C3.969,33.916,0,37.881,0,42.771V195.06c0,4.891,3.969,8.856,8.854,8.856h220.123 c4.887,0,8.855-3.965,8.855-8.856V42.771C237.832,37.881,233.864,33.916,228.977,33.916z M221.026,182.184 c0,4.063-3.364,7.356-7.512,7.356h-12.339V73.379l-76.693,49.79c-1.687,1.096-3.627,1.641-5.566,1.641s-3.88-0.545-5.566-1.641 l-76.692-49.79V189.54h-12.34c-4.147,0-7.512-3.293-7.512-7.356V55.647c0-4.063,3.364-7.356,7.512-7.356h10.176l84.423,54.808 l84.423-54.808h10.176c4.147,0,7.512,3.293,7.512,7.356V182.184z"></path></g></svg>
+                                </p>
+                            </button>
+                        </div>
+                    </div>
+
+                    /* NO MODIFICADO*/
+                    <div class="p-6 bg-stone-600 rounded-b-lg">
+                        <!-- EmailJS -->
+                      <form id="email-form" method="POST" class="space-y-4 hidden">
+                        <div>
+                          <input type="text" name="name" placeholder="Tu nombre" autocomplete="off" class="w-full p-2 rounded bg-zinc-900 text-gray-300 focus:ring-2 focus:ring-rose-300 outline-none">
+                        </div>
+                        <div>
+                          <input type="email" name="email" placeholder="Tu correo" autocomplete="off" class="w-full p-2 rounded bg-zinc-900 text-gray-300 focus:ring-2 focus:ring-rose-300 outline-none">
+                        </div>
+                        <div>
+                          <textarea name="message" placeholder="Tu mensaje" rows="5" class="w-full p-2 rounded bg-zinc-900 text-gray-300 focus:ring-2 focus:ring-rose-300 outline-none"></textarea>
+                         
+                        </div>
+                        <button type="submit" class="bg-black text-gray-300 px-4 py-2 rounded hover:bg-zinc-800 hover:animate-shake">
+                            Enviar
+                        </button>
+                      </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="src/js/script.js"></script>
+    </body>
+</html>
