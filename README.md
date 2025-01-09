@@ -1,9 +1,12 @@
 # Proyecto Mi Portfolio Web🌐
 
-Bienvenido/a a mi portfolio web 
+Bienvenido/a a mi portfolio web. 
 Este es un proyecto que contiene todo lo necesario para ver en Netlify.
 <br>
 [Porfolio Web](https://my-portfolioweb-jorgerg.netlify.app/)
+
+
+(https://github.com/user-attachments/assets/d197fb63-5f40-447d-afd3-03b39ec66768)
 
 ## Características 🚀
 
