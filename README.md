@@ -5,9 +5,8 @@ Este es un proyecto que contiene todo lo necesario para ver en Netlify.
 <br>
 [Porfolio Web](https://my-portfolioweb-jorgerg.netlify.app/)
 <br>
-(https://github.com/user-attachments/assets/074fb43f-c573-44bd-aec8-93a886e254ea)
 
-
+![P-Web](https://github.com/user-attachments/assets/54914c6f-ad2f-414e-b120-c2ab291d9051)
 
 ## Características 🚀
 
